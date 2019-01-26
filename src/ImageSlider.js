@@ -10,7 +10,9 @@ export default class ImageSlider extends Component {
 
   render () {
     return(
-      I am on slide {this.state.currentSlideIndex}
+      <div>
+        I am on slide {this.state.currentSlideIndex}
+      </div>
     )
   }
 }
